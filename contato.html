@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HenriqueSebastiaoAraujoGoncalves</title>
+
+    <style>
+
+        h1 {color: white; 
+            text-align: center;
+            font-family: "Lucida Console", "Courier New", monospace;}
+
+        h2 {font-family: "Lucida Console", "Courier New", monospace;}
+
+        p {font-family: "Lucida Console", "Courier New", monospace;}
+
+        body 
+            {margin: 10px;}
+
+        .cabecalho 
+            {display: grid;}
+
+        header 
+            {grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #472bbb;}
+
+        .menu 
+            {grid-column-start: 3;
+            grid-column-end: 10;
+            font-weight: bold;
+            justify-content: center;
+            gap: 20px;}
+
+        .principal 
+            {grid-column-start: 5;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+            float: center;}
+            
+
+        footer 
+            {grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #472bbb;
+            color: white;}
+
+        ul 
+            {list-style-type: none;
+            color: #472bbb;}
+
+        a:link 
+            {text-decoration: none;
+            padding: 8px 16px;
+            border: solid 4px;}
+
+        li 
+            {float: left;}
+
+        a:hover 
+            {background-color: #472bbb;
+            color: white;}
+
+    </style>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 style="color: white; text-align: center;">Site Pessoal: <br> Henrique Sebastião de Araújo Gonçalves</h1>
+        <br>
+
+    </header>
+    <nav class="cabecalho menu">
+        <ul>
+            <li><a href="index.html">Sobre mim.</a></li>
+            <li><a href="formacaoacademica.html">Formação academica.</a></li>
+            <li><a href="portifolio.html">Portifólio.</a></li>
+            <li><a href="contato.html">Contato.</a></li>
+        </ul>
+    </nav>
+        <section class=".cabecalho principal">
+            <br><br><br>
+            <h2>Preencha o formulário abaixo para me enviar uma menssagem.</h2>
+            <br><br><br>
+            <form action="" method="">
+                <table>
+                    <tr>
+                        <th><label for="nome">Nome:</label></th>
+                        <td><input type="text" name ="nome" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="e-mail">E-mail:</label></th>
+                        <td><input type="email" name ="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg">Digite a sua menssagem:</label></th>
+                        <td><textarea name ="msg" rows="5" cols="40">Digite a sua mensagem:</textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Enviar</button></td>
+                    </tr>
+                </table>
+                <br><br><br>
+        </section>
+    </div>
+    <footer class="cabecalho">
+        <h1>Desenvolvido para o trabalho de Fundamentos da Programação WEB da UNINTER.</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
